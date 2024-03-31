@@ -135,17 +135,22 @@ public class Main {
 //        for(int i=0; i<temp; i++){
 //            db.insertEdges(conn, "edges", r.nextInt(temp), r.nextInt(temp));
 //        }
+
+        // calculate time for BFS
 //        long startTime = System.currentTimeMillis(); // Record start time
 //        performBFS(db, conn);
 //        long endTime = System.currentTimeMillis(); // Record end time
 //
 //        long elapsedTime = endTime - startTime; // Calculate elapsed time
 //        System.out.println("BFS traversal completed in " + elapsedTime + " milliseconds.");
-        long startTime1 = System.currentTimeMillis(); // Record start time
-        performDFS(db, conn);
-        long endTime1 = System.currentTimeMillis(); // Record end time
+        
+        // calculate time for DFS
+        // long startTime1 = System.currentTimeMillis(); // Record start time
+        // performDFS(db, conn);
+        // long endTime1 = System.currentTimeMillis(); // Record end time
 
-        long elapsedTime1 = endTime1 - startTime1; // Calculate elapsed time
-        System.out.println("DFS traversal completed in " + elapsedTime1 + " milliseconds.");
+        // long elapsedTime1 = endTime1 - startTime1; // Calculate elapsed time
+        // System.out.println("DFS traversal completed in " + elapsedTime1 + " milliseconds.");
+
     }
 }
